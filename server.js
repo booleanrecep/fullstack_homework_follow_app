@@ -6,10 +6,6 @@ const helmet = require("helmet");
 const app = express();
 require('dotenv').config()
 /////
-// UPLOAD FILE LOCALLY
-// mongoimport --uri "mongodb://recep:xzilhxu2fbEygWmH@test-1-shard-00-00.fft2y.mongodb.net:27017,test-1-shard-00-01.fft2y.mongodb.net:27017,test-1-shard-00-02.fft2y.mongodb.net:27017/homework_app?ssl=true&replicaSet=atlas-l7z1n2-shard-0&authSource=admin" --drop --file classrooms.json
-//MONGO SHELL
-// mongo "mongodb+srv://test-1.fft2y.mongodb.net/homework_app" --username recep
 //mongoose connection/////////
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
